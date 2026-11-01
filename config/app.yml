@@ -1,0 +1,4 @@
+app:
+  name: "Codeser Lookbefore"
+  version: "${project.version}"
+  description: "AI-powered code change impact analyzer"

@@ -1,0 +1,48 @@
+# Maven
+target/
+pom.xml.versionsBackup
+.flattened-pom.xml
+dependency-reduced-pom.xml
+
+# Bí mật và biến môi trường cục bộ: KHÔNG BAO GIỜ commit
+.env
+.env.*
+!.env.example
+
+# JVM
+hs_err_pid*.log
+replay_pid*.log
+
+# Mô hình AI tải về khi thử nghiệm (nặng vài GB)
+*.gguf
+
+# Dữ liệu đánh giá: chỉ commit danh sách, không commit repository clone về
+evaluation/datasets/repositories/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+/out/
+/*/out/
+
+# VS Code
+.vscode/
+
+# Eclipse (chỉ thư mục bin ở gốc module, không chặn bin/ trong packaging/)
+.classpath
+.project
+.settings/
+.factorypath
+/bin/
+/*/bin/
+
+# Hệ điều hành
+.DS_Store
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*~
+.directory
